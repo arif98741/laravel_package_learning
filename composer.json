@@ -1,0 +1,25 @@
+{
+    "name": "phpdark/press",
+    "description": "This is a testing repository",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ariful",
+            "email": "arif98741@gmail.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "orchestra/testbench": "^4.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "phpdark\\Press\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "phpdark\\Press\\Tests\\": "tests/"
+        }
+    }
+}
